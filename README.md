@@ -1,2 +1,2 @@
 # website-bookmarks
-This website will memorise your favorite websites.
+This website will memorise your bookmarks.
