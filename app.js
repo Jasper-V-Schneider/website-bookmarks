@@ -8,7 +8,7 @@ function addWebsite() {
   } else {
     let li = document.createElement("li");
     let link = document.createElement("a");
-    link.href = input.value;
+    link.href = "https://"+input.value;
     li.append(link);
     link.innerText = input.value;
     list.appendChild(li);
