@@ -3,6 +3,9 @@ body {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+a {
+  color: #ffc107;
+}
 img {
   padding-left: 5%;
   height: 30vh;
@@ -10,7 +13,7 @@ img {
 }
 h1 {
   margin: 2.5% 25% 0% 5%;
-  border-bottom: 3px solid #0d6efd;
+  border-bottom: 3px solid #ffc107;
 }
 div#form-container {
   margin: 2.5% 25% 5% 5%;
@@ -22,7 +25,7 @@ div#form-container {
 
 #list {
   margin: 0% 25% 5% 5%;
-  padding: 3% 3% 3% 10%;
+  padding: 3% 3% 3% 30px;
   border: 1.5px solid white;
   border-radius: 10px;
 }
