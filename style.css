@@ -3,29 +3,40 @@ body {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+input#website {
+  color: white;
+}
+div#container {
+  border-top: 3px solid #ffc107;
+  padding: 25px;
+  margin-bottom: 50px;
+}
 a {
   color: #ffc107;
 }
 img {
-  padding-left: 5%;
+  padding: 10px;
   height: 30vh;
   width: 70%;
 }
 h1 {
-  margin: 2.5% 25% 0% 5%;
-  border-bottom: 3px solid #ffc107;
+  text-align: center;
+  margin-top: 25px;
 }
 div#form-container {
-  margin: 2.5% 25% 5% 5%;
+  margin: 2.5% 5% 25px 5%;
 }
 
 .form-control {
   margin-bottom: 15px;
 }
-
+div#footer {
+  display: flex;
+  justify-content: center;
+}
 #list {
-  margin: 0% 25% 5% 5%;
-  padding: 3% 3% 3% 30px;
+  margin: 2.5% 5% 25px 5%;
+  padding: 30px;
   border: 1.5px solid white;
   border-radius: 10px;
 }
