@@ -40,3 +40,8 @@ div#footer {
   border: 1.5px solid white;
   border-radius: 10px;
 }
+#container,
+#list,
+#container {
+  background-color: #212529;
+}
