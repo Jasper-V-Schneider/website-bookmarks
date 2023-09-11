@@ -1,11 +1,12 @@
 const button = document.getElementById("submit-button-jasper");
 const list = document.getElementById("list");
-const input = document.getElementById("exampleInputEmail1");
+const input = document.getElementById("website");
 const radio = document.getElementById("http");
 const radioS = document.getElementById("https");
 let transferProtocol;
 
 function addWebsite() {
+  console.log("hi");
   if (radio.checked) {
     transferProtocol = "http://";
   } else if (radioS.checked) {
@@ -24,3 +25,4 @@ function addWebsite() {
     list.appendChild(li);
   }
 }
+button.addEventListener("click", addWebsite());

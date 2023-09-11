@@ -3,9 +3,6 @@ body {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-input#website {
-  color: white;
-}
 div#container {
   border-top: 3px solid #ffc107;
   padding: 25px;
@@ -39,9 +36,5 @@ div#footer {
   padding: 30px;
   border: 1.5px solid white;
   border-radius: 10px;
-}
-#container,
-#list,
-#container {
-  background-color: #212529;
+  background-color: #3f3d56;
 }
