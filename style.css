@@ -12,16 +12,18 @@ a {
   color: #ffc107;
 }
 img {
-  padding: 10px;
-  height: 30vh;
+  margin-top: 0;
+  height: 300px;
   width: 70%;
 }
 h1 {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 40px;
 }
 div#form-container {
-  margin: 2.5% 5% 25px 5%;
+  margin: 25px 5% 25px 5%;
 }
 
 .form-control {
@@ -32,8 +34,8 @@ div#footer {
   justify-content: center;
 }
 #list {
-  margin: 2.5% 5% 25px 5%;
-  padding: 30px;
+  margin: 50px 5% 25px 5%;
+  padding: 15px 30px;
   border: 1.5px solid white;
   border-radius: 10px;
   background-color: #3f3d56;
