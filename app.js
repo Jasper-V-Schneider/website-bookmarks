@@ -25,4 +25,4 @@ function addWebsite() {
     list.appendChild(li);
   }
 }
-button.addEventListener("click", addWebsite());
+button.addEventListener("click", addWebsite);
